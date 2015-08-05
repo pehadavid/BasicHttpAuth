@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>Pierre-Alain David</authors>
+    <owners>Pierre-Alain David</owners>
+    <projectUrl>https://github.com/papci/HttpBasicAuth</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provide an easy way to use http basic authentification </description>
+    <tags>Http basic authentification</tags>
+    <dependencies>
+      <dependency id="Owin" version="1.0" />
+      <dependency id="Microsoft.Owin" version="3.0.1" />
+      <dependency id="Microsoft.Owin.Host.SystemWeb" version="3.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="web.config.transform" target="content" />
+  </files>
+</package>

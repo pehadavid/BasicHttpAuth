@@ -1,0 +1,6 @@
+﻿<configuration>
+  <appSettings>
+    <add key="basicAuth:username" value="changeme" />
+    <add key="basicAuth:pass" value="changeme" />  
+  </appSettings>
+</configuration>
